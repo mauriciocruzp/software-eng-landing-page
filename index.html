@@ -34,7 +34,7 @@
                 <ul
                     class="flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-primary">
                     <li>
-                        <a href="https://www.facebook.com/PolitecnicaChis"
+                        <a href="https://www.facebook.com/PolitecnicaChis" target="_blank"
                             class="py-2 px-3 md:p-0 rounded hover:text-gray-400 text-white" aria-current="page"><svg
                                 fill="white" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35"
                                 viewBox="0 0 50 50">
@@ -44,7 +44,7 @@
                             </svg></a>
                     </li>
                     <li>
-                        <a href="https://www.instagram.com/upchiapas/"
+                        <a href='https://www.instagram.com/upchiapas/' target="_blank"
                             class="py-2 px-3 md:p-0 rounded hover:text-gray-400 text-white"><svg fill="white"
                                 xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35"
                                 viewBox="0 0 50 50">
@@ -68,8 +68,7 @@
                     </li>
                     <li>
                         <a href="https://www.upchiapas.edu.mx/Registro" target="_blank"
-                            class="py-2 px-3 md:p-0 rounded hover:text-gray-300 text-white">Solicitar
-                            ficha</a>
+                            class="py-2 px-3 md:p-0 rounded hover:text-gray-300 text-white">Solicitar ficha</a>
                     </li>
                 </ul>
             </div>
@@ -154,11 +153,13 @@
             </div>
     </footer>
 
-    <script>
+    <!-- <script>
+        document.querySelector('a[href="https://www.upchiapas.edu.mx/Registro"]');
         document.addEventListener("DOMContentLoaded", function () {
             document.querySelectorAll('nav a').forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
                     e.preventDefault();
+
 
                     document.querySelector(this.getAttribute('href')).scrollIntoView({
                         behavior: 'smooth'
@@ -166,7 +167,7 @@
                 });
             });
         });
-    </script>
+    </script> -->
 </body>
 
 </html>
